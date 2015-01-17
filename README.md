@@ -1,10 +1,10 @@
 # coffee_orders
 
-A Clojure library designed to ... well, that part is up to you.
+A project to play around with clojure
 
 ## Usage
 
-FIXME
+Probably by no one. Just trying to figure this out.
 
 ## License
 
