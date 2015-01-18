@@ -1,7 +1,9 @@
 (ns coffee.page
+  (:require [coffee.helper :as helper])
   (:use [hiccup core element page]))
 
 (defn hello []
   (html5 [:body
             [:div
-              [:h1 "Hello World"]]]))
+             (for [drink helper/drinks]
+               [:h1 drink])]]))
